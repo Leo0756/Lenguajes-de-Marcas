@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 13</title>
+  </head>
+  <body>
+    <h1>TELEBIRRIA</h1>
+    <h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+    <form action="">
+      <fieldset>
+        <legend>Datos Personales y de Envio</legend>
+
+        <label for="Nombre">Nombre: </label>
+        <input type="text" id="Nombre" name="Nombre"/><br/>
+
+        <label for="Apellidos">Apellidos: </label>
+        <input type="text" id="Apellidos" name="Apellidos"/><br/>
+
+        <label for="Domicilio1">Domicilio: </label>
+        <input type="text" name="Domicilio1" id="Domicilio1"/><br/>
+
+        <label for="Localidad">Localidad: </label>
+        <input type="text" name="Localidad" id="Localidad"/><br/>
+
+        <label for="CodPostal">Código Postal: </label>
+        <input type="text" name="CodPostal" id="CodPostal"/><br/>
+
+
+        <label for="Email1">Email: </label>
+        <input type="email" name="Email1" id="Email1"/><br/>
+
+        <label for="Telefono">Teléfono: </label>
+        <input type="tel" name="Telefono" id="Telefono"/><br/>
+      </fieldset>
+
+      <fieldset>
+        <legend>Elija la Opción de Entrega</legend>
+
+        <input type="radio" id="Local" name="Preferencia" value="Local"/>
+        <label for="Local">Recoger en el local</label><br/>
+
+        <input type="radio" id="Domicilio2" name="Preferencia" value="Domicilio2"/>
+        <label for="Domicilio2">Enviar a domicilio</label><br/>
+      </fieldset>
+
+      <fieldset>
+        <legend>¿Quiere que le enviemos nuestras ofertas?</legend>
+        
+        <input type="checkbox" id="Domicilio3" name="Domicilio3" value="Domicilio3"/>
+        <label for="Domicilio3">Enviar al domicilio</label><br/>
+
+        <input type="checkbox" id="Email2" name="Email2" value="Email2"/>
+        <label for="Email2">Enviar por email</label><br/>
+      </fieldset>
+
+      <fieldset>
+        <legend>Elija su menu</legend>
+        <label for="Menu">Elige un tamaño: </label><br/>
+        <select name="Menu" id="Menu" size="4">
+            <option value="Pequeño">Pequeño</option>
+            <option value="Mediano">Mediano</option>
+            <option value="Grande">Grande</option>
+            <option value="Enorme">Enorme</option>
+          </select>
+
+
+      </fieldset>
+    </form>
+  </body>
+</html>
