@@ -1,0 +1,4 @@
+/* Este estilo no se aplicará ya que no tiene prioridad inferior antes el CSS de cabecera y en línea*/
+p {
+    color: yellow;
+}
