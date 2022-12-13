@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+#primero {
+    border: solid 5px red;
+    margin: 0px;
+    padding: 0px;
+}
+
+#segundo {
+    border: solid 5px aquamarine;
+    margin: 5px;
+    padding: 5px;
+}
+
+#tercero {
+    border: solid 5px coral;
+    margin: 0px;
+    padding: 20px;
+}
