@@ -1,0 +1,17 @@
+#primeracapa {
+    width: 50%;
+    font-size: 1em;
+    border: 1px solid black;
+}
+
+#segundacapa {
+    width: 33.3%;
+    font-size: 1.2em;
+    border: 1px solid red;
+}
+
+#terceracapa {
+    width: 25%;
+    font-size: 0.8em;
+    border: 1px solid blue;
+}
