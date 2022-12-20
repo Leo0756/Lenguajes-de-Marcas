@@ -1,0 +1,19 @@
+#ordenada li {
+    text-indent: 40px;
+}
+
+#desordenada {
+    list-style-position: inside;
+}
+
+#primera {
+    list-style-image: url("./img/Blancanieves.png")
+}
+
+#segunda {
+    list-style: square inside url("./img/Cindirella.png");
+}
+
+#tercera {
+    list-style: circle inside url("./img/Sirenita.png");
+}
