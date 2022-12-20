@@ -1,5 +1,4 @@
 #primero {
-    width: 75%;
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
     font-size: 15px;
@@ -8,7 +7,6 @@
 }
 
 #segundo {
-    width: 50%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;
     font-size: z0px;
@@ -17,7 +15,6 @@
 }
 
 #tercero {
-    width: 40%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 10px;
