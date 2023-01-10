@@ -11,9 +11,9 @@
 }
 
 #segunda {
-    list-style: square inside url("./img/Cindirella.png");
+    list-style-image: url("./img/Cindirella.png");
 }
 
 #tercera {
-    list-style: circle inside url("./img/Sirenita.png");
+    list-style-image: url("./img/Sirenita.png");
 }
